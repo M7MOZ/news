@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 50px;
+    align-items: center;
+    position: relative;
+}
+.navBar ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navBar ul li{
+    display: inline;
+    margin-left: 60px;
+}
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.navBar ul li a.active {
+    color: #f57274
+}
+.logo{
+    width: 80px;
+}
+.logoHam{
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+.slider{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 80%;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: -2px 0 200px rgba(0, 0, 0, 5);
+    transition: right 0.3s ease;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.open {
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .navBar ul{
+        margin-top: 100px ;
+    }
+    .navBar ul li{
+        display:list-item;
+        margin: 25px 10px;
+        font-size: 1.4rem;
+    }
+}

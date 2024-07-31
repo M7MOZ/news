@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    gap: 40px;
+}
+@media screen and (max-width: 1000px) {
+    .home{
+        flex-wrap: wrap;
+    }
+}

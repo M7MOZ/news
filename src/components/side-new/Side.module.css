@@ -1,0 +1,34 @@
+.side{
+    max-width:450px;
+    min-width:250px;
+    background-color: #010139;
+    padding: 30px 20px;
+    color: #FFFFFF
+}
+.side h1{
+    color: #E2AA4F;
+    margin: 0;
+}
+.new{
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+.new:last-child{
+    border: none;
+}
+.new p{
+    font-weight: 200;
+    color: #d5d4d4;
+}
+.new h3{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.new h3:hover{
+    color: #E2AA4F;
+}
+@media screen and (max-width: 1000px) {
+    .side{
+        width: 100%;
+    }
+}
